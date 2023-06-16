@@ -8,6 +8,10 @@
   font-family: 'IQOS', sans-serif;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 .header {
   position: fixed;
   top: 0;
