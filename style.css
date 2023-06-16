@@ -1,0 +1,196 @@
+@import url('https://fonts.cdnfonts.com/css/iqos');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'IQOS', sans-serif;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 4%;
+  background-color: grey;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  z-index: 100;
+  text-decoration: none;
+}
+
+.logo_header {
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+}
+
+.logo_img_img {
+  height: 50px;
+  width: 50px;
+  margin-right: 10px;
+  border-radius: 50px;
+}
+
+.logo_name {
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-decoration: none;
+  transition: .4s;
+}
+
+.logo_name:hover {
+  color: black;
+}
+
+.navbar a{
+  font-size: 18px;
+  color: white;
+  font-weight: 500;
+  margin-left: 35px;
+  text-decoration: none;
+  transition: .4s;
+}
+
+.navbar a:hover {
+  color: black;
+}
+
+.homepage {
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  min-height: 60rem;
+  max-height: 100rem;
+  justify-content: space-evenly;
+  background-color: rgb(188, 199, 195);
+}
+
+.homepage_content {
+  position: absolute;
+  text-align: center;
+}
+
+.homepage_content h1 {
+  font-size: 70px;
+  text-transform: uppercase;
+}
+
+.homepage_info {
+  font-size: 25px;
+  max-width: 65rem;
+}
+
+.homepage_info h3 {
+  text-align: center;
+  font-size: 25px;
+}
+
+.homepage_button_project {
+  margin-top: 10%;
+  background-color: gray;
+  font-size: 20px;
+  color: white;
+  border-radius: 10px;
+  transition: .4s;
+}
+
+.homepage_button_project:hover{
+  color: black;
+}
+
+.homepage_button {
+  margin-top: 10%;
+}
+
+.sobre_titulo {
+  font-size: 30px;
+  text-align: center;
+}
+
+.minha_pessoa {
+  display: grid;
+  grid-gap: 10rem;
+  grid-template-columns: 1fr 1fr;
+  left: 5rem;
+  right: 5rem;
+  position: relative;
+}
+
+.minha_pessoa_main h1 {
+  font-size: 30px;
+}
+
+.minha_pessoa_txt {
+  max-width: 60rem;
+}
+
+.skills h1 {
+  font-size: 30px;
+}
+
+.skills_list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skills_desc {
+  padding: 1rem 1rem;
+  background-color: grey;
+  margin-bottom: 1.5rem;
+  margin-right: 1.5rem;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.projeto_titulo {
+  font-size: 30px;
+  text-align: center;
+}
+
+.sobre_conteudo {
+  margin-top: 1%;
+  margin-bottom: 5%;
+}
+
+.projetos_lista {
+  text-align: center;
+  line-break: auto;
+}
+
+.projeto_desc {
+  margin-bottom: 3%;
+}
+
+.projetos_lista p{
+  display: flex;
+  margin-left: 20rem;
+  margin-right: 20rem;
+}
+
+.contato_container {
+  margin-top: 1%;
+  margin-bottom: 5%;
+}
+
+.contato_title {
+  font-size: 30px;
+  text-align: center;
+}
+
+.contato_body {
+  display: flex;
+  justify-content: center;
+}
+
+.img_contato {
+  height: 50px;
+  width: 50px;
+  margin-right: 10px;
+}
